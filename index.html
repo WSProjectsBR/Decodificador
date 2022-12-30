@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style/reload.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script defer src="./main/main.js"></script>
+</head>
+<body>
+    <div class="containerPrincipal">
+        <header>
+            <h1>Decodificador de texto</h1>              
+        </header>
+    </div>
+    <div class="containerImagem">
+        <img src="./style/wsproject.png"/>
+    </div>
+    <div class="containerEsquerdo"> 
+        <textarea type="text" id="textoUsuario"></textarea>
+        <textarea type="text" id="mensagemCodificada"></textarea>
+        <placeholder>
+            <p id="textoInstrucao">Digite seu texto apenas com letras minúsculas e sem caracteres especiais.</p>
+        </placeholder>
+        <button onclick="criptografaMensagem()" id="botaoCripto">Criptografar</button>
+        <button onclick="descriptografaMensagem()" id="botaoDescripto">Descriptografar</button>
+        <button onclick="copiarTexto()" id="botaoCopiar">Copiar</button>
+    </div>
+    <div class="containerRodape">
+        <footer>
+            <p id="textoRodape">&copy; Copyrigth WSProject (Web Developer) 2022</p>
+        </footer>
+    </div>
+    
+  
+</body>
+</html>

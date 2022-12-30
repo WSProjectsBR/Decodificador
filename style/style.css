@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+.containerPrincipal {
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    justify-content: center; 
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 10px;
+}
+
+.containerImagem {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 50px;
+}
+
+img {
+    height:17%;
+    width:17%;
+}
+
+textarea {
+    width:350px;
+    height: 175px;
+    background-color: black;
+    border-radius: 25px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    color:darkred;
+    font-size:15px;
+    resize: none;
+    padding: 20px;
+}
+
+#textoInstrucao {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.containerEsquerdo {
+    flex-direction: column ;
+    text-align: center;
+    padding: 15px;
+}
+
+.containerDireito {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#botaoCripto, #botaoDescripto {
+    align-items: center;
+    background:black;
+    color:red;
+    border-radius: 5px 5px 5px 0px;
+    border-color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#botaoCopiar {
+    align-items: center;
+    background: black;
+    color:greenyellow;
+    border-color: white;
+    border-radius: 5px 5px 5px 0px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
+
+ .containerRodape {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+ }
+ 
+#textoRodape {   
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+}
